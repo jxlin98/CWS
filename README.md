@@ -11,17 +11,17 @@ This is a CWS implementation using bert for pku dataset
 * Transformers (tested on 4.15.0)
 
 ## Files
-* bert-base-chinese is the bert pretrain model for chinese
-* checkpoint saves the best model parameter
-* datasets contains the pku CWS dataset
-* result saves the test result and score
-* scripts contains the script for evaluation
+bert-base-chinese is the bert pretrain model for chinese  
+checkpoint saves the best model parameter  
+datasets contains the pku CWS dataset  
+result saves the test result and score  
+scripts contains the script for evaluation  
 
-* data.py reads the pku CWS dataset
-* model.py implements the model
-* train.py and test.py are for train and test
-* utils.py contains some data structure and functions
-* result.sh runs the script for evaluation
+data.py reads the pku CWS dataset  
+model.py implements the model  
+train.py and test.py are for train and test  
+utils.py contains some data structure and functions  
+result.sh runs the script for evaluation
 
 ## Train and Test
 
